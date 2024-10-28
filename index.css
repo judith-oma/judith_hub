@@ -1,0 +1,153 @@
+:root{
+    --bgcolor: rgb(12, 58, 58);
+    --textcolor: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width:100%;
+  background-color:var(--bgcolor);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+    background-color: aliceblue;
+    /* border-radius: 10px; */
+    width: 80%;
+    height: 70%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e8083;
+    /* border-top-right-radius: 10px; */
+    /* border-top-left-radius: 10px; */
+    width: 100%;
+    padding: 5px;
+ }
+
+.brand{
+    display: flex;
+    gap: 2px;
+    font-size: 5px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration:none ;
+    color:white;
+}
+a:hover{color:red;}
+nav ul li:hover{
+color:red;
+cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.hero1{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.intro {
+    /* margin: 10px; */
+    padding-bottom: 20px;
+}
+
+.brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.brand h1{
+    font-size: 30px;
+}
+
+.hero1 h1{
+    font-size: 50px;
+}
+
+.hero1 p{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 0 4rem;
+}
+
+.herobtn{
+    width: 60%;
+    height: 6vh;
+    font-size: large;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.herobtn:hover{
+    transition: all;
+    animation: ease-in-out;
+    animation-duration: 300ms;
+    scale: 105%;
+}
+
+.herobtn a{
+    color: black;
+}
+marquee{
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    image-rendering: optimizeQuality;
+}
+
+footer {
+    width: 100%;
+}
+
+.tip img{
+    width: 40px;
+    height: 40px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items:center ;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: solid 1px;
+    color: aliceblue;
+}

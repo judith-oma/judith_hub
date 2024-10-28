@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: grid;
+    place-items: center;
+
+}
+
+section{
+    display: grid;
+    place-items: center;
+    width: 70%;
+}
+
+.skills{ 
+    display: grid;
+    place-items:center;
+    gap: 45px;
+    grid-template-columns:repeat(5, 1fr) ;
+    padding: 10px;
+}
+
+.first li{
+    font-size: x-large;
+    list-style: none;
+}
+
+.first img{
+width: 400px;
+}
+
+        
